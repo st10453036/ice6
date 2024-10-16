@@ -13,6 +13,7 @@ public class vowel {
         // Convert the sentence to lowercase to handle both upper and lowercase vowels
         sentence = sentence.toLowerCase();
 int vowelCount = 0;
+ 
          // Iterate through each character in the string
         for (int i = 0; i < sentence.length(); i++) {
             char ch = sentence.charAt(i);
